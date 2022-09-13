@@ -4,168 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oopdracht 3.2</title>
 </head>
 <body>
-    <table border="30px">
-        <thead>
-            <tr>
-                <th>Stand</th>
-                <th>Team</th>
-                <th>G</th>
-                <th>W</th>
-                <th>GL</th>
-                <th>L</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Ajax</td>
-                <td>6</td>
-                <td>6</td>
-                <td>0</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Feyenoord</td>
-                <td>6</td>
-                <td>5</td>
-                <td>1</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>PSV</td>
-                <td>6</td>
-                <td>5</td>
-                <td>0</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>AZ</td>
-                <td>6</td>
-                <td>4</td>
-                <td>2</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>FC Twente</td>
-                <td>6</td>
-                <td>4</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>SC Hereveen</td>
-                <td>6</td>
-                <td>2</td>
-                <td>3</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Excelsior Rotterdam</td>
-                <td>6</td>
-                <td>3</td>
-                <td>0</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>FC Utrecht</td>
-                <td>6</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>FC Groningen</td>
-                <td>6</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>N.E.C Nijmegen</td>
-                <td>6</td>
-                <td>1</td>
-                <td>4</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>11</td>
-                <td>Sparta Rotterdam</td>
-                <td>6</td>
-                <td>2</td>
-                <td>1</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>12</td>
-                <td>RCK Waawlijk</td>
-                <td>6</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>13</td>
-                <td>SC Cambuur</td>
-                <td>6</td>
-                <td>1</td>
-                <td>1</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>14</td>
-                <td>Vitesse</td>
-                <td>6</td>
-                <td>1</td>
-                <td>1</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>15</td>
-                <td>FC Emmen</td>
-                <td>6</td>
-                <td>1</td>
-                <td>1</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>16</td>
-                <td>FC Volendam</td>
-                <td>6</td>
-                <td>1</td>
-                <td>1</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>17</td>
-                <td>Go Ahead Eagles</td>
-                <td>6</td>
-                <td>1</td>
-                <td>0</td>
-                <td>5</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>18</td>
-                <td>Fortuna Sittard</td>
-                <td>6</td>
-                <td>0</td>
-                <td>1</td>
-                <td>5</td>
-            </tr>
-        </tfoot>
-    </table>
+    <form name="reactieformulier">
+        <label for="Vnaam">Voornaam:</label><br> 
+        <input type="text" id="vnaam" name="voornaam" pattern="[^0-9]*">  
+        <br>
+        <label for="Anaam">Achternaam:</label><br>
+        <input type="text" id="Anaam" name="Achternaam" pattern="[^0-9]*">  
+        <br>
+        <label for="gender">Geslacht:</label><br>
+        <input type="radio" id="man" name="gender" value="man" checked>
+        <label for="man">Man</label><br>
+        <input type="radio" id="vrouw" name="gender" value="vrouw">
+        <label for="vrouw">Vrouw</label><br><br>
+        <label for="stad" id="stad" name="stad" value="">Stad:</label><br>
+        <input type="text" id="stad" name="stad" value=""><br><br>
+            <label for="land" id="land" name="land" value="">Land:</label><br>
+         <input type="text" id="land" name="land" value=""><br><br>
+        <label for="sens" id="sens" name="snes" value="sens">Straat en huisnummer:<br></label>
+            <input type="text" id="sens" name="sens" value=""><br><br>
+            <label for="postcode" id="pc" name="postcode" value="PC">Postcode:</label><br>
+         <input type="text" id="land" name="land" value=""><br><br>
+            <label for="BSN" id="BSN" name="BSN" value="">BSN nummer:</label><br>
+            <input type=number id="BSN" name="BSN"><br><br>
+            <label for="VL" id="VL" name="VL">Vakantieland:</label><br>
+            <select>
+                <option value="Duitsland" id="Duitsland">Duitsland</option>
+                <Option value="Rusland" id="Rustland">Rusland</Option>
+                <option value="London" id="London">London</option>
+                <option value="Miami" id="Miami">Miami</option>
+                <option value="Indonesie" id="Indonesie">Indonesie</option>
+            </select><br><br><br>
+            <br. <br>
+            <label for="VD" id="VD">Vertrekdatum:</label><br>
+            <input type="date" id="VD" name="VD" min="2022-09-09"><br><br>
+            <label for="AD" id="AD">Aankomstdatum:</label><br>
+            <input type="date" id="AD" name="AD"<br><br><br>
+            <label for="RG" id="RG">Aantal Personen:</label><br>
+            <input type="number" id="RG" name="RG" min="1" max="4"><br><br>
+            <input type="submit" id="sub" name="sub"value="Boek nu"<br>
+            <br>
+            <br>
+            <label for="email" id="email">Email adress:</label><br> 
+            <input type="text" id="email"><br><br>
+            <label for="pass" id="pass">Wachtwoord:</label><br>
+            <input type="password" id="Pass">
+
+ 
+        
+    
+        </form>
 </body>
 </html>

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+  header {
+    background-image: url("./haaker.png");
+    color:white;
+  
+  }
+  h1 {
+    text-align:center;
+    font-size:5em;
+    position:relative;
+    top:80rem
+  }
+  body {
+    background-color: black;
+    
+  }
+  p {
+    color:white
+  }
+  h2 {
+    color:white
+  }
+  
+  
+  header {
+    
+    background-image:url("./haaker.png");
+    width:100vw;
+    height: 130vh;
+    background-size: cover;
+  }
+  
+  
+  .center_big {
+    text-align: center;
+    font-size: 5em;
+  }
+  .rechter_position {
+    position: relative;
+    left: 80rem;
+   top: 10rem;
+    font-size:2em
+    
+  }
+  
+  .image_left {
+    width: 30vw;
+    height: 50vh;
+    position: relative;
+    top: -25rem;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .rechter_position2 {
+    position: relative;
+    left: 82rem;
+   top: 10rem;
+    font-size:2em
+  }
+  section {
+    width: 100vw;
+    height: 100vh;
+  }
+  footer {
+    background-color:#00a8c7;
+    color:white;
+    text-align:center;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  nav {
+    position:fixed;
+    top:0;
+  }
+  .image_right {
+  
+    position: relative;
+    left: 100rem;
+    width: 40rem;
+    height: 40rem;
+    top: -20rem;
+  
+  
+  }
+  
+  .text_left {
+    font-size: 2em;
+    position:relative;
+  top: 15rem;
+  left: 15rem;
+  }
+  
+  .jaar_2 {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;;
+  }
+  
+  .dropbtn {
+    background-color: #00a8c7;
+    color: white;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    border: none;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E9E9E9;
+    min-width: 16rem;
+    box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0,0,0,0.2);
+    z-index: 1;
+    color: #00a8c7;
+  }
+  
+  .dropdown-content a {
+    color: #00a8c7;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+    font-size: 1.4rem;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  
+  .dropdown:hover .dropdown-content {display: block;
+  }
+  
+  
+  .dropdown:hover .dropbtn {background-color:white; color:#00a8c7;};

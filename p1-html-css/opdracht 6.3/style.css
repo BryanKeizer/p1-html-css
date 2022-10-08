@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+ul {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 0, 0,);
+    width: 100vw;
+    height:12vh;
+    font-size:2rem;
+    color: rgb(12, 12, 12);
+}
+
+ul li {
+    display: flex;
+   list-style: none;
+   color: rgb(14, 14, 13);
+}
+
+ul section {
+  display: flex;
+  justify-content: center;
+ }
+
+.hero {
+    color: rgb(30, 33, 210);
+    font-size: 3rem;
+}
+
+ul li a {
+    color: rgb(12, 45, 234);
+    padding: 20px 10px;
+    text-decoration: none;
+}
